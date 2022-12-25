@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permissão para acessar o app de fotos"
+        }
+      ]
+    ],
+    "name": "Delivery",
+    "slug": "Delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/motoboy.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/motoboy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00CCBB"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/motoboy.png",
+        "backgroundColor": "#00CCBB"
+      }
+    },
+    "web": {
+      "favicon": "./assets/motoboy.png"
+    }
+  }
+}
