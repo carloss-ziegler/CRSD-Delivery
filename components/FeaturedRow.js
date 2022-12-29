@@ -45,6 +45,8 @@ const FeaturedRow = ({ title, description, id }) => {
         }}
         showsHorizontalScrollIndicator={false}
         className="pt-4"
+        pagingEnabled
+        snapToAlignment="start"
       >
         {restaurants.map((restaurant) => (
           <RestaurantCard
